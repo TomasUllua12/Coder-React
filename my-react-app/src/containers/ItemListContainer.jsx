@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProductsByCategory } from '../data/mockData';
-import ItemList from './ItemList';
-import './ItemListContainer.css';
+import ItemList from '../components/ItemList';
+import '../components/ItemListContainer.css';
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
